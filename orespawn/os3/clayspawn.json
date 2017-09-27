@@ -13,8 +13,7 @@
             "maxHeight": 128
           },
           "feature": "default",
-          "replace_block": "default",
-          "biomes": []
+          "replace_block": "default"
         }
       ]
     }
