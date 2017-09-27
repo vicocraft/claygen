@@ -1,0 +1,22 @@
+{
+  "version": "1.1",
+  "dimensions": [
+    {
+      "ores": [
+        {
+          "block": "minecraft:clay",
+          "parameters": {
+            "size": 16,
+            "variation": 8,
+            "frequency": 64.0,
+            "minHeight": 0,
+            "maxHeight": 128
+          },
+          "feature": "default",
+          "replace_block": "default",
+          "biomes": []
+        }
+      ]
+    }
+  ]
+}
