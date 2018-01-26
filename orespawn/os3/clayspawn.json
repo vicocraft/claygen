@@ -1,21 +1,30 @@
 {
-  "version": "1.1",
-  "dimensions": [
-    {
-      "ores": [
+  "version": "2.0",
+  "spawns": {
+    "clay": {
+      "retrogen": true,
+      "enabled": true,
+      "feature": "default",
+      "replaces": "default",
+      "dimensions": [
+        0
+      ],
+      "biomes": {
+        "excludes": []
+      },
+      "parameters": {
+        "size": 16,
+        "variation": 8,
+        "frequency": 64,
+        "minHeight": 0,
+        "maxHeight": 128
+      },
+      "blocks": [
         {
-          "block": "minecraft:clay",
-          "parameters": {
-            "size": 16,
-            "variation": 8,
-            "frequency": 64.0,
-            "minHeight": 0,
-            "maxHeight": 128
-          },
-          "feature": "default",
-          "replace_block": "default"
+          "name": "minecraft:clay",
+          "chance": 100
         }
       ]
     }
-  ]
+  }
 }
